@@ -1,0 +1,63 @@
+
+.juntar{
+  display: flex;
+  flex-direction: column;
+}
+.h1{
+  position: relative;
+  top: 150px;
+  margin: 0 auto;
+  display:inline-block;
+
+}
+h1{
+  display:flex;
+  color: white;
+  line-height: 60px;
+  font-family: "Source Code Pro",monospace;
+
+  width: 100%;
+  font-size: 40px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.efeito1::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: hsl(219,4%,4%);
+  animation: efect1 1s  ease forwards;
+}
+@keyframes efect1{
+  to{
+    left: 100%;
+  }
+}
+.efeito2::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: hsl(219,4%,4%);
+  animation: efect1 1s ease forwards;
+  animation-delay: 1s;
+}
+
+.efeito3::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: hsl(219,4%,4%);
+  animation: efect1 1s  ease forwards;
+  animation-delay: 2s;
+}
+

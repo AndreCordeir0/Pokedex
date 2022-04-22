@@ -1,0 +1,13 @@
+<div class="inputer">
+
+<input type="text" id="input" placeholder="Pesquisar Pokemon" [(ngModel)]="filter">
+</div>
+<div class="grid">
+  <div class="itens" *ngFor="let item of poke | filter:filter">
+<h2>{{item.nome}}</h2>
+<img [src]="item.image" width="150px" (click)="buscarPorId(item.id)" alt="Imagem do pokemon">
+<p>Ataque: {{item.ataque}}</p>
+<p>Defesa: {{item.defesa}}</p>
+
+  </div>
+</div>

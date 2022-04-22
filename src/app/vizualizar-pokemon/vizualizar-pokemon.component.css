@@ -1,0 +1,47 @@
+
+p,h2,h3{
+  color: white;
+  font-family: "Source Code Pro",monospace;
+}
+h3{
+  color: rgb(226, 169, 178);
+  border-bottom: 1px solid rgb(224, 168, 177);
+  margin-bottom: 30px;
+
+
+}
+
+.central{
+  display: flex;
+  border: 1px solid white;
+  margin: 0 auto;
+  width: 600px;
+  position: relative;
+  top: 90px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  border-radius: 30px;
+}
+.central img{
+  object-fit: cover;
+
+
+}
+.allinfos{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+
+}
+.info2{
+  margin-top: 50px;
+}

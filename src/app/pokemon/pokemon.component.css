@@ -1,0 +1,63 @@
+body{
+  transition:all 2s ease-in-out;
+  color: white;
+}
+h2{
+  color: white;
+  font-family: "Source Code Pro",monospace;
+}
+
+p{
+  color: white;
+  font-family: "Source Code Pro",monospace;
+}
+.grid{
+  display: grid;
+  margin: 0 auto;
+  width: 900px;
+  margin-top: 30px;
+
+  grid-template-columns: repeat(3,300px);
+}
+.itens{
+margin-bottom: 30px;
+margin-right: 20px;
+padding-bottom: 5px;
+animation: animation 4s linear infinite;
+border-radius: 10px;
+display: flex;
+align-items: center;
+flex-direction: column;
+border:2px solid hsl(0, 0%, 94%);
+
+}
+
+.itens p{
+  align-self: flex-start;
+  padding-left: 10px;
+  float: left;
+}
+.itens img:hover{
+  transform: scale(1.04);
+  cursor: pointer;
+
+}
+
+#input{
+  width: 600px;
+  height: 35px;
+  margin: 0 auto;
+  border-radius: 3px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  outline: none;
+}
+#input:focus{
+  border: 2px solid white;
+}
+.inputer{
+  margin: 0 auto;
+  width: 600px;
+  margin-top: 30px;
+}

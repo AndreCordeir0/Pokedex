@@ -1,0 +1,15 @@
+{
+  "pokemons":[
+    {"id":1,"nome":"Pikachu","ataque":100,"defesa":35,"tipo":"Raio","fraqueza":"Terra","image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png"},
+    {"id":2,"nome":"Bulbasaur","ataque":35,"defesa":85,"tipo":"Veneno","fraqueza":"Fogo","image":"https://www.picng.com/upload/pokemon/png_pokemon_43589.png"},
+    {"id":3,"nome":"Pidgey","ataque":55,"defesa":55,"tipo":"Voador","fraqueza":"Gelo","image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png"},
+    {"id":4,"nome":"Golbat","ataque":65,"defesa":55,"tipo":"Veneno","fraqueza":"Gelo","image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/042.png"},
+    {"id":5,"nome":"Charizard","ataque":75,"defesa":85,"tipo":"Fogo","fraqueza":"Agua","image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png"},
+    {"id":6,"nome":"Squirtle","ataque":65,"defesa":55,"tipo":"Agua","fraqueza":"Terra","image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png"},
+    {"id":7,"nome":"Butterfree ","ataque":45,"defesa":25,"tipo":"Inseto","fraqueza":"Fogo","image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/012.png"},
+    {"id":8,"nome":"Caterpie","ataque":30,"defesa":50,"tipo":"Inseto","fraqueza":"Pedra","image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png"},
+    {"id":9,"nome":"Beedrill ","ataque":60,"defesa":50,"tipo":"Inseto","fraqueza":"Fogo","image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/015.png"},
+    {"id":10,"nome":"Arcanine  ","ataque":80,"defesa":40,"tipo":"Fogo","fraqueza":"Agua","image":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/059.png"}
+  ]
+
+}
